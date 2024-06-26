@@ -274,7 +274,7 @@
 
 .notice{
     width: 100%;
-    padding: 50px 0;
+    padding: 50px 0 80px;
     overflow: hidden;
 }
 
@@ -323,3 +323,86 @@
 .notice ul li span.n_4{
     background-position: -301px -253px;
 }
+
+
+/* footer 영역 */
+
+#footer{
+    border-top: 2px solid #ddd;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.foot_inner{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    position: relative;
+}
+
+.foot_menu{
+    float: left;
+    font-size: 12px;
+}
+
+.foot_menu li{
+    display: inline-block;
+}
+
+.foot_menu li a{
+    display: block;
+    padding: 5px;
+}
+
+.foot_menu li:nth-child(1) a{
+    padding-left: 0 !important;
+}
+
+.foot_tel{
+    float: right;
+    font-size: 12px;
+    margin-right: 300px;
+}
+
+.hana{
+    clear: both;
+    padding-top: 20px;
+}
+
+.data li{
+    display: inline-block;
+    padding: 5px 3px;
+    font-size: 12px;
+    color: #444;
+}
+
+.hana li , .address li, .data li{
+    display: inline-block;
+    padding:5px 3px;
+    font-size: 12px;
+    color:     #444;
+}
+
+.foot_p1{
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.foot_p2{
+    padding-top: 10px !important;
+}
+
+.copy{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.f_logo{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
